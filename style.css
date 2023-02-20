@@ -1,189 +1,61 @@
-body{
-  background-color:grey;
-}
-
-img {
-  position:absolute;
-  left:50%;
-  top:75%;
-  transform:translate(-50%,-50%);
-}
-
-#MR {
-  width:20%;
-  height:20%;
-  position:absolute;
-  top:75%;
-  left:25%;
-  transform:translate(-50%,-50%);
-}
-
-#CE{
-  width:10%;
-  height:20%;
-  position:absolute;
-  top:75%;
-  left:50%;
-  transform:translate(-50%,-50%);
-}
-
-#DISL{
-  width:20%;
-  height:20%;
-  position:absolute;
-  top:75%;
-  left:75%;
-  transform:translate(-50%,-50%);
-}
-
-video{
-  width:75%;
-  height:75%;
-  position:absolute;
-  top:5%;
-  left:50%;
-  transform:translate(-50%);
-}
-
-#empezar{
-width:20%;
-height:10%;
-position:absolute;
-transform:translate(-50%,-50%);
-left:50%;
-top:90%;
-}
-
-
-img.icono{
-position:absolute;
-top:25%;
-left:50%;
-}
-
-img.per{
-position:absolute;
-width:20%;
-height:20%;
-top:40%;
+.noinvert{
+    transform:scaleX(1) translate(-50%,-50%);
 }
 
 .invert{
-transform:scaleX(-1) translate(50%,-50%);
+    transform:scaleX(-1) translate(50%,-50%);
 }
 
-.noinvert{
-transform:scaleX(1) translate(-50%,-50%);
-}
-
-#camino{
-  transform:translate(-50%,-50%);
-  position:absolute;
-  width:100%;
-  top:30%;
-  height:50%;
-}
-
-#fondo{
-    transform:translate(-50%,-50%);
+.fondo{
     position:absolute;
-    width:100%;
+    transform:translate(0%,-50%);
+    width:300%;
     height:100%;
     top:50%;
-    left:50%;
+    left:0%;
 }
 
-.boton1{
-    transform:translate(-50%,-50%);
+
+.per{
     position:absolute;
-    top:70%;
-    left:85%;
-}
-
-.boton2{
-    transform:translate(-50%,-50%);
-    position:absolute;
-    top:85%;
-    left:85%;
-}
-
-
-#dis{
-    position:absolute;
-    top:85%;
-    left:95%;
-}
-
-#ceguera{
-    position:absolute;
-    top:70%;
-    left:95%;
-}
-
-#negro{
-    position:absolute;
-    transform:translate(-50%,-50%);
-    width:200%;
-    height:200%;
-}
-
-#elije{
-    position:absolute;
-    left:50%;
-    top:10%;
-    font-size:60;
-    color:#FA5858;
-    font-family:arial;
-}
-
-p{
-    color:#FA5858;
-    font-family:arial;
-}
-
-.opa{
-    opacity:0.2;
+    top:72%;
     width:30%;
     height:30%;
 }
 
-#paisaje{
-    width:100%;
-    height:100%;
+#p{
     position:absolute;
-    transform:translate(-50%,-50%);
-    top:50%;
-    left:50%;
-}
-
-#dislexia{
-    color:#FA5858;
-    font-family:arial;
-    font-size:30;
-    position:absolute;
-    top:35%;
-    left:50%;
-}
-
-.aceptar{
-    position:absolute;
-    transform:translate(-50%,-50%);
-    top:95%;
-    left:50%;
-}
-
-#soon{
     width:50%;
     height:50%;
-    position:absolute;
-    transform:translate(-50%,-50%);
-    top:50%;
     left:50%;
+    top:50%;
+}
+#p2{
+    position:absolute;
+    width:50%;
+    height:50%;
+    left:50%;
+    top:60%;
 }
 
-#close{
-    transform:translate(-50%,-50%);
+#coche{
     position:absolute;
-    left:50%;
+    transform:translate(-50%,-50%);
+    width:30%;
+    height:30%;
+}
+
+.opa0{
+    opacity:1;
+    top:90%;
+}
+
+.opa1{
+    opacity:0.5;
+    top:75%;
+}
+
+.opa2{
+    opacity:0.2;
     top:70%;
 }
